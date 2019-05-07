@@ -1,3 +1,4 @@
+require 'pry'
 class Song
   attr_accessor :name, :artist
 
@@ -14,5 +15,6 @@ class Song
 
   def artist_name
     name = self.artist.name
+    
   end
 end
