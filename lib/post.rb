@@ -14,6 +14,9 @@ class Post
 
   def author_name
     #binding.pry
-    self.author.name if self.author
+    if self.author
+      binding.pry
+      self.author.name
+    end
   end
 end
