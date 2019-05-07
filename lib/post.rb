@@ -13,7 +13,7 @@ class Post
   end
 
   def author_name
-    binding.pry
-    self.author.name
+    #binding.pry
+    self.author.name if self.author
   end
 end
